@@ -3,4 +3,4 @@ cadastrar imóveis e potenciais compradores ou locatários podem procurar por ca
 oferece funcionalidades para cadastro e login de usuários, além de um sistema de gerenciamento de 
 anúncios, proporcionando uma experiência de usuário intuitiva e responsiva.
 
-•Tecnologias: PHP, HTML, CSS, JavaScript e MySql
+•Tecnologias: HTML, CSS, JavaScript, PHP e MySql
