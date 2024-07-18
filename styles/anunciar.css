@@ -1,0 +1,57 @@
+.anunciar__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+ 
+.anunciar__imagem {
+    width: 100%;
+    max-width: 400px;
+}
+ 
+.anunciar__estado, .anunciar__cidade, .anunciar__endereco, .anunciar__numero__casa, 
+.anunciar__descricao, .anunciar__contato, 
+.anunciar__situacao, .anunciar__valor {
+    width: 20em;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--cor-da-borda);
+    margin: 0 0 1.5em 0;
+}
+
+.anunciar__botao__arquivo {
+    background-color: transparent;
+    color: var(--cor-da-letra-1);
+    cursor: pointer;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 104px;
+ }
+
+ .botao__arquivo {
+    visibility: hidden;
+ }
+
+.anunciar__botao__enviar {
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid var(--cor-da-letra-2);
+    border-radius: 15px;
+    color: var(--cor-da-letra-1);
+    padding: 15px 15px;
+    margin: 10px;
+}
+
+.anunciar__botao__enviar:hover {
+    background-color: var(--cor-do-botao);
+    border-color: var(--cor-da-letra-1);
+}
+
+.user-icon {
+    width: 50px;
+    height: 50px;
+}

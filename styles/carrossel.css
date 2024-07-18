@@ -1,0 +1,15 @@
+.carrossel_imagens {
+    display: flex;
+    overflow: hidden;  
+}
+
+.carrossel_botoes {
+    display: flex;
+    visibility: hidden;
+    margin-top: -15%;
+}
+
+.banner__imagem {
+    max-width: 100%;
+    height: auto;
+}

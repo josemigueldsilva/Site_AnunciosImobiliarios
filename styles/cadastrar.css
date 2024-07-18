@@ -1,0 +1,47 @@
+.cadastrar__container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+ 
+.cadastrar__imagem {
+    width: 100%;
+    max-width: 400px;
+}
+ 
+.cadastrar__texto {
+    margin-top: -1em;
+}
+ 
+.cadastrar__texto__destaque {
+    color: var(--cor-da-letra-2);
+}
+ 
+.cadastrar__nome, .cadastrar__email, .cadastrar__senha, .cadastrar__celular {
+    width: 20em;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid var(--cor-da-borda);
+    margin-bottom: 10px;
+}
+.cadastrar__nome:hover, .cadastrar__email:hover, .cadastrar__senha:hover, .cadastrar__celular:hover {
+    border-color: #102C57;
+}
+ 
+.cadastrar__botao__entrar {
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid var(--cor-da-letra-2);
+    border-radius: 15px;
+    color: var(--cor-da-letra-1);
+    padding: 15px 15px;
+    margin: 10px;
+}
+
+.cadastrar__botao__entrar:hover {
+    background-color: var(--cor-do-botao);
+    border-color: var(--cor-da-letra-1);
+ }

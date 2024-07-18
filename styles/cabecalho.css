@@ -1,0 +1,109 @@
+.cabecalho__container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.cabecalho__imagem {
+    width: 200px;
+    height: auto;
+}
+
+.Usuario {
+    width: 20px;
+}
+
+.links__menu__cabecalho{
+    display: flex;
+    list-style-type: none;
+}
+
+.links__cabecalho {
+    text-decoration: none;
+    color: var(--cor-da-letra-1);
+    margin: 50px;
+}
+
+.links__cabecalho:hover {
+    color: var(--cor-do-botao);
+    text-decoration: none;
+    margin: 50px;
+}
+
+
+.botao__entrar {
+    text-decoration: none;
+    border: 2px solid var(--cor-da-letra-2);
+    border-radius: 15px;
+    color: var(--cor-da-letra-1);
+    padding: 15px 15px;
+    margin: 10px;
+    background: url("../img/Usuario.png");
+}
+
+.botao__entrar:hover {
+    background-color: var(--cor-do-botao);
+    border-color: var(--cor-da-letra-1);
+}
+
+.botao__cadastrar {
+    text-decoration: none;
+    border: 2px solid var(--cor-da-letra-2);
+    border-radius: 15px;
+    color: var(--cor-da-letra-1);
+    padding: 15px 15px;
+    margin: 10px;
+}
+
+.botao__cadastrar:hover {
+    background-color: var(--cor-do-botao);
+    border-color: var(--cor-da-letra-1);
+}
+
+.dropbtn {
+    background-color: var(--cor-do-botao);
+    padding: 8px;
+    min-width: 150px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+  
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+}
+  
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 150px;
+    padding: 8px;
+    border-radius: 5px;
+    text-align: center;
+}
+  
+.conta__menu__links {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+  
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+  

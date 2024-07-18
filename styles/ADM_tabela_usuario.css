@@ -1,0 +1,74 @@
+#customers {
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 80%; 
+    margin: 0 auto; 
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #2196F3;
+    color: #ffffff;
+}
+
+.menu__template {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
+  background-color: #f1f1f1;
+  height: 100%;
+  position: fixed; 
+  overflow: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+.menu__template a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+.menu__template a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+.botao__voltar__adm{
+    display: flex;
+    justify-content: center;
+}
+
+.botao__voltar__adm2 {
+    cursor: pointer;
+    text-decoration: none;
+    border: 2px solid var(--cor-da-letra-2);
+    border-radius: 15px;
+    color: var(--cor-da-letra-1);
+    padding: 15px 15px;
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+  }
+ 
+  .botao__voltar__adm2:hover {
+    background-color: var(--cor-do-botao);
+    border-color: var(--cor-da-letra-1);
+ }
